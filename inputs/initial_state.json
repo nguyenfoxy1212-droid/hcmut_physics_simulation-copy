@@ -1,0 +1,31 @@
+{
+  "system": "Helical Electron Motion in Magnetic Field",
+  "parameters": {
+    "elementary_charge": 1.602176634e-19,
+    "q": -1.602176634e-19,
+    "m": 9.1093837015e-31,
+    "Ex": 0.0,
+    "Ey": 0.0,
+    "Ez": 0.0,
+    "Bx": 0.0,
+    "By": 0.0,
+    "Bz": 0.01,
+    "tau": 0.0,
+    "n_density": 1.0e22,
+    "width_w": 1.0e-3,
+    "thickness_t": 1.0e-4,
+    "current_I": 0.01
+  },
+  "initial_conditions": {
+    "x0": 0.0,
+    "y0": 0.0,
+    "z0": 0.0,
+    "v0": 1.0e6,
+    "theta_deg": 60.0
+  },
+  "simulation": {
+    "dt": 1.0e-11,
+    "t_max": 1.5e-8,
+    "method": "RK45"
+  }
+}
